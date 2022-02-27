@@ -1,0 +1,50 @@
+body{
+    background-image: url(/images/white\ background.jpg );
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;    
+    width: 100%;
+    padding: 40px 0;
+    overflow-x: hidden;
+}
+.main-doc{
+    box-sizing: border-box;
+    background-color:azure;
+    margin: 0 auto;
+    width: 50%;
+    padding: 5px;
+    min-width: 500px;
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 10px gray, -7px -7px 10px gray;
+}
+.about{
+    text-align: center;
+}
+fieldset{
+    border: none;
+}
+fieldset{
+    border-bottom: 2px solid gray;;
+}
+fieldset i{
+    text-decoration: underline;
+}
+footer{
+    text-align: center;
+}
+hr{
+    background-color: gray;
+
+}
+a i{
+    text-shadow: 2px 2px 2px gray;
+}
+.icons{
+    display: flex;
+    column-gap: 2rem;
+    justify-content: center;
+    
+}
+.contact:hover{
+    transform: scale(2.1);
+}
